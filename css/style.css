@@ -23,6 +23,8 @@ list-style: none;
 .logo{
 font-family: 'Raleway', sans-serif;
 font-style: normal;
+text-transform: uppercase;
+font-weight: 800px;
 font-size: 18px;
 line-height: 1.33;
 color: var(--main-text-color);
@@ -30,13 +32,14 @@ color: var(--main-text-color);
 .span-logo{
 font-family: 'Raleway', sans-serif;
 font-style: normal;
+text-transform: uppercase;
+font-weight: 800px;
 font-size: 18px;
 line-height: 1.33;
 color:var(--btn-text-color);
 }
 
 .studio{
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -47,7 +50,6 @@ color:var(--main-text-color);
 color: var(--btn-text-color);
 }
 .portfolio{
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -59,7 +61,6 @@ color: var(--btn-text-color);
 }
 
 .contacts{
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 text-decoration: none;
 font-size: 16px;
@@ -72,7 +73,6 @@ color: var(--btn-text-color);
 }
 
 .mail{
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -83,7 +83,6 @@ color: var(--second-text-color);
 color: var(--btn-text-color);
 }
 .phone{
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -93,9 +92,10 @@ color: var(--second-text-color);
 .phone:focus{
 color: var(--btn-text-color);
 }
+.hero{
+background-color: var(--second-text-color);}
+
 .title{
-font-family: 'Roboto', sans-serif;
-background-color: var(--second-text-color);
 font-size: 56px;
 line-height: 1.07;
 color:var(--title-text-color);
@@ -118,43 +118,36 @@ color: var(--title-text-color)
 display: none;
 }
 .post-title{
-font-family: 'Roboto', sans-serif;
 font-size: 20px;
 line-height: 1.2;
 color:var(--main-text-color);
 }
 .post-title-text{
-font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 color: var(--second-text-color);
 }
 .images-title{
-font-family: 'Roboto',sans-serif;
 font-size: 36px;
 line-height: 1.11;
 color: var(--main-text-color);
 }
 .team-title{
-font-family: 'Roboto',sans-serif;
 font-size: 36px;
 line-height: 1.11;
 color: var(--main-text-color)
 }
 .post-team-title{
-font-family: 'Roboto', sans-serif;
 font-size: 20px;
 line-height: 1.2;
 color:var(--main-text-color);    
 }
 .team-text{
-font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 color: var(--second-text-color); 
 }
 .logo-text{
-font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 color:var(--footer-text);   
@@ -230,13 +223,11 @@ background-color: var(--btn-bg-color-active);
 color: var(--btn-text-color-active);  
 }
 .post-images-title{
-font-family: 'Roboto', sans-serif;
 font-size: 20px;
 line-height: 1.2;
 color:var(--main-text-color);
 }
 .images-text{
-font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 color: var(--second-text-color); 
@@ -246,4 +237,13 @@ color: var(--second-text-color);
 }
 .footer{
     background-color: var(--second-text-color);
+}
+.logo-footer{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+text-transform: uppercase;
+font-weight: 800px;
+font-size: 18px;
+line-height: 1.33;
+color: var(--main-bg-color);
 }
